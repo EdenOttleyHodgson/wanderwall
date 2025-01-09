@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server-dev.js",
+    "build": "vite build --outDir dist/",
+    "serve": "node server-prod.js"
+  },
+  "dependencies": {
+    "@googlemaps/routing": "^1.4.0",
+    "@vuepic/vue-datepicker": "^11.0.0",
+    "decode-google-map-polyline": "^1.0.1",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vue3-google-map": "^0.21.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.1"
+  }
+}
