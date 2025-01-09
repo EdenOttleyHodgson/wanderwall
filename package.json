@@ -12,6 +12,7 @@
     "@googlemaps/routing": "^1.4.0",
     "@vuepic/vue-datepicker": "^11.0.0",
     "decode-google-map-polyline": "^1.0.1",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
